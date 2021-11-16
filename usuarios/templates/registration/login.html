@@ -1,0 +1,13 @@
+{% extends 'main/base.html' %}
+
+{% block title %}<title>acceder</title>{% endblock %}
+
+{% load crispy_forms_tags %}
+{% block content %}
+    <form method="post" class="from-group">
+        {% csrf_token %}
+        {{form|crispy}}
+        <p>¿No tienes una cuenta? Crea una cuenta<a href="/register"> apretando este link</a></p>
+        <button type="submit" class="btn btn-success">Acceder</button>
+    </form>
+{% endblock %}
