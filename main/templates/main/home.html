@@ -1,22 +1,27 @@
 {% extends 'main/base.html' %}
+{% block styles %}
+{% load static %}
+<link rel='stylesheet' type="text/css"
+ href="{% static 'css/cesese.css' %}">
+{% endblock  %}
 {% block content %}
-<div class="container">
+<div class="container" style='max-width:100%;'>
 
     <h1 class="heading">Bienvenido a EducaPro</h1>
-
+    
     <div class="box-container">
 
         <div class="box">
             <h3>Login</h3>
             <p>haga click para acceder a su cuenta</p>
-            <a href="login" class="btn">acceder</a>
+            <a href="/login" class="btn">acceder</a>
         </div>
 
         <div class="box">
             <h3>Sobre EducaPro</h3>
             <p>a través de esta aplicacion estudiantes de cualquier lugar tendran
                la posibilidad de poder conocer las actividades de cada asignatura en un horario sencillo de entender,
-               si usted desea ver un tutoria para entender de mejor manera como funciona la pagina haga click para ver el tutorial</p>
+               si usted desea ver un tutorial para entender de mejor manera como funciona la pagina haga click para ver el tutorial</p>
             <a href="#" class="btn">tutorial</a>
         </div>
 

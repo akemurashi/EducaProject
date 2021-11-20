@@ -1,0 +1,20 @@
+{% extends 'main/base.html' %}
+{% block styles %}
+{% load static %}
+<link rel='stylesheet' type="text/css"
+ href="{% static 'css/ramos_css.css' %}">
+{% endblock  %}
+{% block content %}
+<div class="container">
+
+    <h1 class="heading">tus ramos</h1>
+
+    <div class="box-container">
+        <div class="box">
+            <h3>Agregar ramo</h3>
+            <p>haga click para acceder agregar un ramo</p>
+            <a href="#" class="btn">+</a>
+        </div>
+</div>
+</body> 
+{% endblock %}
