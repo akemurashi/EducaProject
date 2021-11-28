@@ -5,16 +5,30 @@
  href="{% static 'css/ramos_css.css' %}">
 {% endblock  %}
 {% block content %}
+
 <div class="container">
 
-    <h1 class="heading">tus ramos</h1>
+    <h1 class="heading">tus ramos,{{nombre_del_usuario}}</h1>
 
+    {% for ramo in informacion_ramos %}
+
+        <div class="box-container">
+             
+            <img src="{{ramo.foto_ramo}}" alt="">
+            <h3>{{ramo.nombre_ramo}}</h3>
+            <p>haga click para acceder al horario de {{ramo.nombre_ramo}}</p>
+            <a href="#" class="btn">horario</a>
+        </div>
+
+    {% endfor %}
     <div class="box-container">
         <div class="box">
             <h3>Agregar ramo</h3>
             <p>haga click para acceder agregar un ramo</p>
-            <a href="#" class="btn">+</a>
+            <a href="/Creacion_ramos" class="btn">+</a>
         </div>
+
 </div>
 </body> 
 {% endblock %}
+

@@ -1,0 +1,24 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block content %}
+    <div class="container">
+
+        <h1 class="heading">¡Crea tu materia!</h1>
+
+        <form method="post" action="/Creacion_ramos/">
+        {% csrf_token %}
+            
+                {% for s in images %}
+                    <input id="imagen" name="imagen" type="radio" value="{{ s }}"><img src="{{ s }}"/></option>      
+                {% endfor %}
+            
+            <label for="n_ramo">nombre del ramo: </label>
+            <input type="text" id="n_ramo" name="n_ramo">
+
+            <label for="sigla_ramo">Sigla del ramo: </label>
+            <input type="text" id="sigla_ramo" name="sigla_ramo">
+
+            <button type="submit", name="save">Crear</button>
+        </form>
+
+{% endblock  %}

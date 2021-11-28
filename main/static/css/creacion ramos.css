@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+.container{
+    background:linear-gradient(45deg, #00A86B,#29AB87 );
+    padding:10px 10%;
+    padding-bottom: 600px;
+}
+.container .btn{
+    display: block;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+.container .heading{
+    text-align: center;
+    padding-bottom: 30px;
+    color:#fff;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 30px;
+}
+
+.container .box-container{
+    display: block;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap:15px;
+}
+.container .box-container .box1{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding:5px 5px;
+    width: 300px;
+    margin: auto;
+}
+.container .box-container .box1 h2{
+    color:#444;
+    font-size: 20px;
+    padding:5px 0;
+}
+.container .box-container .button1{
+    display: block;
+    display: inline-block;
+    padding: 30px 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    background:url(efi.jfif);
+    background-size: cover;
+    width: 180px;
+    height: 125px;
+}
+.container .box-container .button2{
+    display: block;
+    display: inline-block;
+    padding: 30px 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    background:url(efi.jfif);
+    background-size: cover;
+    width: 180px;
+    height: 125px;
+}
+.container .box-container .button3{
+    display: block;
+    display: inline-block;
+    padding: 30px 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    background:url(efi.jfif);
+    background-size: cover;
+    width: 180px;
+    height: 125px;
+}
+.container .box-container .button4{
+    display: block;
+    display: inline-block;
+    padding: 30px 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    background:url(efi.jfif);
+    background-size: cover;
+    width: 180px;
+    height: 125px;
+}
+.container .box-container .button5{
+    display: block;
+    display: inline-block;
+    padding: 30px 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    background:url(efi.jfif);
+    background-size: cover;
+    width: 180px;
+    height: 125px;
+    
+}
+.container .box-container .button6{
+    display: block;
+    display: inline-block;
+    padding: 30px 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    background:url(efi.jfif);
+    background-size: cover;
+    width: 180px;
+    height: 125px;
+}
+.container .box-container .button7{
+    display: block;
+    display: inline-block;
+    padding: 30px 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background:url(efi.jfif);
+    background-size: cover;
+    width: 180px;
+    height: 125px;
+}
+.container .box-container .button8{
+    display: block;
+    display: inline-block;
+    padding: 30px 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background:url(efi.jfif);
+    background-size: cover;
+    width: 180px;
+    height: 125px;
+}
+.container .box-container .button9{
+    display: block;
+    display: inline-block;
+    padding: 30px 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background:url(efi.jfif);
+    background-size: cover;
+    width: 180px;
+    height: 125px;
+}
+.container .box-container .button10{
+    display: block;
+    display: inline-block;
+    padding: 30px 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background:url(efi.jfif);
+    background-size: cover;
+    width: 180px;
+    height: 125px;
+}
+.container .box-container .button11{
+    display: block;
+    display: inline-block;
+    padding: 30px 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background:url(efi.jfif);
+    background-size: cover;
+    width: 180px;
+    height: 125px;
+}
+.container .box-container .button12{
+    display: block;
+    display: inline-block;
+    padding: 30px 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background:url(efi.jfif);
+    background-size: cover;
+    width: 180px;
+    height: 125px;
+}
+.container .box-container .box2{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding:5px 5px;
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+
+}
+.container .box-container .box2 h3{
+    color:#444;
+    font-size: 20px;
+    padding:5px 0;
+}
+.container .box-container .textarea{
+    display: block;
+    font-size: 20px;
+    margin: auto;
+    border-radius: 3px;
+    margin-top: 20px;
+
+}
+.container .box-container .btn2{
+    display: block;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin: auto;
+    margin-top: 20px;
+}

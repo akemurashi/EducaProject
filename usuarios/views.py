@@ -9,7 +9,7 @@ def register(response):
         form = EncuestaRegistro(response.POST)
         if form.is_valid():
             form.save()
-        response.session['user']=form.username
+
         return redirect("/home")
     else:
         form = EncuestaRegistro()    
