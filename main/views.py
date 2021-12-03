@@ -7,7 +7,6 @@ from django.templatetags.static import static
 
 # Create your views here.
 def home(response):
-    print(response.user)
     return render(response,"main/home.html",{})
 
 def Ramos(response):
