@@ -16,8 +16,8 @@
              
             <img src="{{ramo.foto_ramo}}" alt="">
             <h3>{{ramo.nombre_ramo}}</h3>
-            <p>haga click para acceder al horario de {{ramo.nombre_ramo}}</p>
-            <a href="#" class="btn">horario</a>
+            <p>haga click para acceder a la lista de apuntes de {{ramo.nombre_ramo}}</p>
+            <a href="/lista_ap/{{ramo.id}}" class="btn">lista de apuntes</a>
         </div>
 
     {% endfor %}

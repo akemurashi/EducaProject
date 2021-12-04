@@ -1,0 +1,30 @@
+{% extends 'main/base.html' %}
+
+{% block content %}
+    <h2>lista de tus apuntes del ramo {{ramo.nombre_ramo}}</h2>
+
+    <p>
+        <a href="subir/{{ramo.id}}" class="btn btn-primary">Sube tu apunte</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Titulo del apunte</th>
+                <th>Informacion sobre el apunte</th>
+                <th>Descargar</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for apunte in todos_los_apuntes %}
+                <tr>
+                    <td>{{apunte.titulo_apunte}}</td>
+                    <td>{{apunte.informacion_apunte}}</td>
+                    <td>
+                        <a href="{{apunte.archivo.url}}" class="btn btn-primary btn-sm" target="_blank">
+                            Descarga tu apunte
+                        </a>
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody
+{% endblock  %}
