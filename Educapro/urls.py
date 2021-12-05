@@ -19,6 +19,7 @@ from usuarios import views as v
 from django.conf.urls.static import static
 from django.conf import settings
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+from django.conf.urls import patterns
 
 
 urlpatterns = [
@@ -30,4 +31,6 @@ urlpatterns = [
 urlpatterns += staticfiles_urlpatterns()
 
 urlpatterns+= static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+urlpatterns += patterns('', (r'^static/(?P.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}),)
+
 
