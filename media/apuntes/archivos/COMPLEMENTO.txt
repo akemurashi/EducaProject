@@ -1,6 +1,0 @@
-matrices, tipos, op algebraicas listo
-transpuesta,simetrica y antisimetrica, OEF, Matrices EF,matrices escalon reducidas por filas, rango matriz listo
-sistemas de ecuaciones, sistemas homogeneos, metodo gauss jordan listo
-matriz inversa, calculo matriz inversa mediante oe listo
-determinante matriz, determinante y oe, determinate y matriz inversa, regla de cramer listo
-espacio euclideano, producto punto, representacion geometrica sobre R elevado a n listo

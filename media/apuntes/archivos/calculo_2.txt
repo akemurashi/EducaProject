@@ -1,7 +1,0 @@
-antiderivadas y primitivas listo
-intergal indefinida tabla de primitivas propiedades integral indefinida listo
-metodo de sustitucion y sustitucion trigonometrica
-integracion por partes y integracion funciones inversas
-funciones racionales y integracion por descomposicion en suma de fracciones parciales
-problemas de valor inicial 
-integral de riemann
