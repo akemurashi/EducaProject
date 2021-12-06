@@ -16,40 +16,46 @@ body{
 .container{
     background:linear-gradient(45deg, #00A86B,#29AB87 );
     padding:15px 9%;
-    padding-bottom: 100vmax;
-    height: 100%;
+    margin: 0%;
+    padding: 10px;
 }
 
 .container .heading{
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 30px;
     color:#fff;
     text-shadow: 0 5px 10px rgba(0,0,0,.2);
     font-size: 50px;
 }
 
 .container .box-container{
-    display: grid;
+    display: block;
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     gap:15px;
 }
 
 .container .box-container .box{
+    display: block;
+    display: inline-block;
     box-shadow: 0 5px 10px rgba(0,0,0,.2);
     border-radius: 5px;
     background: #fff;
     text-align: center;
     padding:30px 20px;
+    width: 200px;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 
 .container .box-container .box img{
     height: 80px;
 }
 
-.container .box-container .box h3{
+.container .box-container .box h2{
     color:#444;
     font-size: 22px;
     padding:10px 0;
+    margin: auto;
 }
 
 .container .box-container .box p{
@@ -60,7 +66,7 @@ body{
 
 .container .box-container .box .btn{
     margin-top: 10px;
-    display: inline-block;
+    display: block;
     background:#333;
     color:#fff;
     font-size: 17px;
@@ -73,6 +79,57 @@ body{
 }
 
 .container .box-container .box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+.container .box-container1{
+    display: block;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap:15px;
+}
+
+.container .box-container1 .box1{
+    display: block;
+    display: inline-block;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding:30px 20px;
+    width: 300px;
+    margin-top: 10px;
+    margin-right: 10px;
+    
+}
+
+.container .box-container1 .box1 h3{
+    color:#444;
+    font-size: 22px;
+    padding:10px 0;
+    margin: auto;
+}
+
+.container .box-container1 .box1 p2{
+    color:#777;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.container .box-container1 .box1 .btn2{
+    margin-top: 10px;
+    display: block;
+    background:#333;
+    color:#fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+.container .box-container1 .box1 .btn2:hover{
+    letter-spacing: 0.6px;
+}
+
+.container .box-container1 .box1:hover{
     box-shadow: 0 10px 15px rgba(0,0,0,.3);
     transform: scale(1.03);
 }
