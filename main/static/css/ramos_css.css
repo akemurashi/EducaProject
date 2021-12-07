@@ -19,7 +19,7 @@ overflow-x: hidden;
 .container{
     background:linear-gradient(45deg, #00A86B,#29AB87 );
     padding:15px 9%;
-    padding-bottom: 100px;
+    padding-bottom: 100vmax;
     max-width: -webkit-fill-available;
 }
 
