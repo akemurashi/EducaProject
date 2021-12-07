@@ -9,26 +9,21 @@
 <div class="container">
 
     <h1 class="heading">tus ramos, {{nombre_del_usuario}}</h1>
-
-    {% for ramo in informacion_ramos %}
-
-        <div class="box-container">
+    <div class="box-container">
+        {% for ramo in informacion_ramos %}
             <div class="box">
                 <img src="{{ramo.foto_ramo}}" alt="">
                 <h2>{{ramo.nombre_ramo}}</h2>
                 <p>Haga click para acceder a la lista de apuntes de {{ramo.nombre_ramo}}</p>
                 <a href="/lista_ap/{{ramo.id}}" class="btn">Lista de apuntes</a>
-            </div> 
-        </div>
-
-    {% endfor %}
-    <div class="box-container1">
+            </div>
+        {% endfor %}
         <div class="box1">
             <h3>Agregar ramo</h3>
             <p2>Haga click para acceder agregar un ramo</p2>
             <a href="/Creacion_ramos" class="btn2">+</a>
         </div>
-
+    </div>
 </div>
 </body> 
 {% endblock %}

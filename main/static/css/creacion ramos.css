@@ -12,24 +12,17 @@
 
 .container{
     background:linear-gradient(45deg, #00A86B,#29AB87 );
-    padding:10px 10%;
-    padding-bottom: 600px;
+    padding: 15pX 9%;
+    padding-bottom: 100px;
+    max-width: -webkit-fill-available;
 }
-.container .btn{
-    display: block;
-    font-size: 15px;
-    border-radius: 5px;
-    padding: 5px 15px;
-}
-
 .container .heading{
     text-align: center;
     padding-bottom: 30px;
     color:#fff;
     text-shadow: 0 5px 10px rgba(0,0,0,.2);
-    font-size: 30px;
+    font-size: 50px;
 }
-
 .container .box-container{
     display: block;
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
@@ -43,144 +36,39 @@
     padding:5px 5px;
     width: 300px;
     margin: auto;
+    margin-bottom: 20px;
 }
 .container .box-container .box1 h2{
     color:#444;
     font-size: 20px;
     padding:5px 0;
 }
-.container .box-container .button1{
-    display: block;
+.container .box-container .box{
     display: inline-block;
     padding: 30px 20px;
     margin-top: 20px;
     margin-right: 10px;
-    background:url(efi.jfif);
-    background-size: cover;
-    width: 180px;
-    height: 125px;
+    width: 400px;
+    height: 280px;
+
+
 }
-.container .box-container .button2{
-    display: block;
+.container .box-container .input[type=radio]{
     display: inline-block;
     padding: 30px 20px;
     margin-top: 20px;
     margin-right: 10px;
-    background:url(efi.jfif);
-    background-size: cover;
-    width: 180px;
-    height: 125px;
+    width: 100px;
+    height: 80px;
 }
-.container .box-container .button3{
+
+.container .box-container .label{
+    font-size: 10px;
+    color: #fff;
     display: block;
-    display: inline-block;
-    padding: 30px 20px;
-    margin-top: 20px;
-    margin-right: 10px;
-    background:url(efi.jfif);
-    background-size: cover;
-    width: 180px;
-    height: 125px;
-}
-.container .box-container .button4{
-    display: block;
-    display: inline-block;
-    padding: 30px 20px;
-    margin-top: 20px;
-    margin-right: 10px;
-    background:url(efi.jfif);
-    background-size: cover;
-    width: 180px;
-    height: 125px;
-}
-.container .box-container .button5{
-    display: block;
-    display: inline-block;
-    padding: 30px 20px;
-    margin-top: 20px;
-    margin-right: 10px;
-    background:url(efi.jfif);
-    background-size: cover;
-    width: 180px;
-    height: 125px;
-    
-}
-.container .box-container .button6{
-    display: block;
-    display: inline-block;
-    padding: 30px 20px;
-    margin-top: 20px;
-    margin-right: 10px;
-    background:url(efi.jfif);
-    background-size: cover;
-    width: 180px;
-    height: 125px;
-}
-.container .box-container .button7{
-    display: block;
-    display: inline-block;
-    padding: 30px 20px;
-    margin-top: 10px;
-    margin-right: 10px;
-    background:url(efi.jfif);
-    background-size: cover;
-    width: 180px;
-    height: 125px;
-}
-.container .box-container .button8{
-    display: block;
-    display: inline-block;
-    padding: 30px 20px;
-    margin-top: 10px;
-    margin-right: 10px;
-    background:url(efi.jfif);
-    background-size: cover;
-    width: 180px;
-    height: 125px;
-}
-.container .box-container .button9{
-    display: block;
-    display: inline-block;
-    padding: 30px 20px;
-    margin-top: 10px;
-    margin-right: 10px;
-    background:url(efi.jfif);
-    background-size: cover;
-    width: 180px;
-    height: 125px;
-}
-.container .box-container .button10{
-    display: block;
-    display: inline-block;
-    padding: 30px 20px;
-    margin-top: 10px;
-    margin-right: 10px;
-    background:url(efi.jfif);
-    background-size: cover;
-    width: 180px;
-    height: 125px;
-}
-.container .box-container .button11{
-    display: block;
-    display: inline-block;
-    padding: 30px 20px;
-    margin-top: 10px;
-    margin-right: 10px;
-    background:url(efi.jfif);
-    background-size: cover;
-    width: 180px;
-    height: 125px;
-}
-.container .box-container .button12{
-    display: block;
-    display: inline-block;
-    padding: 30px 20px;
-    margin-top: 10px;
-    margin-right: 10px;
-    background:url(efi.jfif);
-    background-size: cover;
-    width: 180px;
-    height: 125px;
+
+    margin: auto;
+
 }
 .container .box-container .box2{
     box-shadow: 0 5px 10px rgba(0,0,0,.2);
@@ -190,7 +78,8 @@
     padding:5px 5px;
     width: 300px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 80px;
+    margin-bottom: 50px;
 
 }
 .container .box-container .box2 h3{
@@ -198,7 +87,7 @@
     font-size: 20px;
     padding:5px 0;
 }
-.container .box-container .textarea{
+.container .box-container .input[type=text]{
     display: block;
     font-size: 20px;
     margin: auto;
@@ -206,7 +95,7 @@
     margin-top: 20px;
 
 }
-.container .box-container .btn2{
+.container .box-container .btn{
     display: block;
     font-size: 20px;
     border-radius: 5px;

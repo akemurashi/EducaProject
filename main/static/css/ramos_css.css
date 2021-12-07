@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
-body{
- max-height: 100%;
- max-width: 100%;
+html,body{
+ height: 100%;
+ width: 100%;
+ margin: 0px;
+ padding: 0px;
+overflow-x: hidden;
 }
 *{
     font-family: 'Poppins', sans-serif;
@@ -16,8 +19,8 @@ body{
 .container{
     background:linear-gradient(45deg, #00A86B,#29AB87 );
     padding:15px 9%;
-    margin: 0%;
-    padding: 10px;
+    padding-bottom: 100px;
+    max-width: -webkit-fill-available;
 }
 
 .container .heading{
@@ -29,20 +32,17 @@ body{
 }
 
 .container .box-container{
-    display: block;
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     gap:15px;
 }
 
 .container .box-container .box{
-    display: block;
-    display: inline-block;
     box-shadow: 0 5px 10px rgba(0,0,0,.2);
     border-radius: 5px;
     background: #fff;
     text-align: center;
     padding:30px 20px;
-    width: 200px;
     margin-top: 10px;
     margin-right: 10px;
 }
@@ -56,6 +56,7 @@ body{
     font-size: 22px;
     padding:10px 0;
     margin: auto;
+
 }
 
 .container .box-container .box p{
@@ -82,40 +83,32 @@ body{
     box-shadow: 0 10px 15px rgba(0,0,0,.3);
     transform: scale(1.03);
 }
-.container .box-container1{
-    display: block;
-    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-    gap:15px;
-}
 
-.container .box-container1 .box1{
-    display: block;
-    display: inline-block;
+.container .box-container .box1{
     box-shadow: 0 5px 10px rgba(0,0,0,.2);
     border-radius: 5px;
     background: #fff;
     text-align: center;
     padding:30px 20px;
-    width: 300px;
     margin-top: 10px;
     margin-right: 10px;
     
 }
 
-.container .box-container1 .box1 h3{
+.container .box-container .box1 h3{
     color:#444;
     font-size: 22px;
     padding:10px 0;
     margin: auto;
 }
 
-.container .box-container1 .box1 p2{
+.container .box-container .box1 p2{
     color:#777;
     font-size: 15px;
     line-height: 1.8;
 }
 
-.container .box-container1 .box1 .btn2{
+.container .box-container .box1 .btn2{
     margin-top: 10px;
     display: block;
     background:#333;
@@ -125,11 +118,11 @@ body{
     padding: 8px 25px;
 }
 
-.container .box-container1 .box1 .btn2:hover{
+.container .box-container .box1 .btn2:hover{
     letter-spacing: 0.6px;
 }
 
-.container .box-container1 .box1:hover{
+.container .box-container .box1:hover{
     box-shadow: 0 10px 15px rgba(0,0,0,.3);
     transform: scale(1.03);
 }
@@ -137,5 +130,6 @@ body{
 @media (max-width:768px){
     .container{
         padding:20px;
+      
     }
 }

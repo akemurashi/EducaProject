@@ -15,7 +15,8 @@ def Ramos(response):
     return render(response, "main/ramos_usuario.html",context)
 
 def CrearRamos(response):
-    choices=[static("images/bio1.jpg"), static("images/bio2.jpg"), static("images/efi1.jpg")]
+    choices=[static("images/bio1.jpg"), static("images/bio2.jpg"), static("images/efi1.jpg"), static("images/efi2.jpg"), static("images/filo1.jpg")
+            , static("images/intro2.jpg"), static("images/mat2.jpg"), static("images/mat3.jpg"), static("images/qui1.jpg"), static("images/qui2.jpg"), static("images/qui3.jpg")]
     if response.method == "POST":
         form = response.POST
         nuevo_ramo = ramos_usuario()
